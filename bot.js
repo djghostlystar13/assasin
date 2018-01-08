@@ -1,7 +1,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "!";
 
 client.on(  +'ready', () => {
     console.log('I am ready!');
@@ -17,9 +17,9 @@ client.on('message', message => {
 });
 
    client.on('message', message => {
-   if (message.content === prefix +'gta5-key') {
-        message.channel.send('Please check your **DM**s');
-      message.author.send('This code is your persional code do not share without quotation marks " Gta520172018 "');
+   if (message.content === prefix +'dj') {
+        message.channel.send("here is a link to Dj_Ghostly-Stars website");
+ 
   	}
 });
  
