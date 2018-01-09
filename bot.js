@@ -13,14 +13,33 @@ client.on('message', message => {
     if (message.content === prefix +'ping') {
     	message.channel.send('PONG!');
   	}
- 
+ if (message.content === prefix +'Ping') {
+    	message.channel.send('PONG!');
+  	}
 });
 
    client.on('message', message => {
    if (message.content === prefix +'dj') {
-        message.channel.send("here is a link to Dj_Ghostly-Stars website");
+        message.channel.send("here is a link to Dj_Ghostly-Stars website  https://djghostlystar.wixsite.com/dj-ghostly-star");
  
   	}
+         if (message.content === prefix +'Dj') {
+        message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
+ 
+  	}
+        if (message.content === prefix +'DJ) {
+        message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
+ 
+  	}
+          if (message.content === prefix +'Ghostly') {
+        message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
+ 
+  	}
+        if (message.content === prefix +'ghostly') {
+        message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
+ 
+  	}
+       
 });
  
  
@@ -28,19 +47,12 @@ client.on('message', message => {
     
 client.on('message', message => {
     if (message.content === prefix +'help') {
-    	message.channel.send('Hello im Ghostly-2.0, my commands are the following with out quotation marks , bot commands about the menu ! , " $status " , " $s " , " Download " , " $features " , " $gta5-key " ,  Other bot commands! " $help " , " $ping " , " $bing " . ');
+    	message.channel.send('Hello im Assasin , my commands are the following with out quotation marks ,  " !help " , " !ping " , " !dj ", " !ghostly " . ');
   	}
 });
 //menu stuff 
-client.on('message', message => {
-    if (message.content === 'download') {
-    	message.channel.send('the cheat is currently not available, please be patient as there is only one developer.');
-  	}
-          if (message.content === 'Download') {
-            message.channel.send('the cheat is currently not available, please be patient as there is only one developer.');
-        }
-});
 
+/*
 client.on('message', message => {
     if (message.content === prefix +'status') {
     	message.channel.send('BOT = online, menu = Offline/detected.');
@@ -51,12 +63,7 @@ client.on('message', message => {
     
 });
 
- 
-client.on('message', message => {
-    if (message.content === prefix +'features') {
-    	message.channel.send('List of features in the menu! Godmode , DemiGod , *Teleport , No Reload , Infinite Ammo , Bullet Damage , RP increase , Never wanted , Super jump , Fast run ,Vehicle god , No recoil , Set time . *means this feature is buggy and sometimes crashes game . ');
-  	}
-});
+*/
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
