@@ -27,7 +27,7 @@ client.on('message', message => {
         message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
  
   	}
-        if (message.content === prefix +'DJ) {
+        if (message.content === prefix +'DJ') {
         message.channel.send("here is a link to Dj_Ghostly-Stars website   https://djghostlystar.wixsite.com/dj-ghostly-star");
  
   	}
