@@ -41,6 +41,28 @@ client.on('message', message => {
   	}
        
 });
+
+
+  client.on('message', message => {
+   if (message.content === prefix +'Scopez') {
+        message.channel.send("here is a link to Scopezs website  https://tjsharkey08.wixsite.com/logoandbanners");
+ 
+  	}
+         if (message.content === prefix +'scopez') {
+        message.channel.send("here is a link to Scopezs website   https://tjsharkey08.wixsite.com/logoandbanners");
+ 
+  	}
+        if (message.content === prefix +'site') {
+        message.channel.send("here is a link to Scopezs website   hhttps://tjsharkey08.wixsite.com/logoandbanners");
+ 
+  	}
+          if (message.content === prefix +'Site') {
+        message.channel.send("here is a link to Scopezs website  https://tjsharkey08.wixsite.com/logoandbanners");
+ 
+  	}
+    
+       
+});
  
  
 
